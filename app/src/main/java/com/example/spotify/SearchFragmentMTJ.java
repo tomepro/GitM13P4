@@ -111,7 +111,7 @@ public class SearchFragmentMTJ extends Fragment {
             cursor.close();
         }
     }
-
+    ///AQUI ESTA E HOT FIXXX
 
     private void mostrarDetalleCancion(int position) {
         DetalleCancionFragmentMTJ detalleCancionFragment = new DetalleCancionFragmentMTJ();
