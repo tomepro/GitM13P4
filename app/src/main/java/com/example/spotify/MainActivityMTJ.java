@@ -80,6 +80,8 @@ public class MainActivityMTJ extends AppCompatActivity {
         checkAndRequestStoragePermissions();
     }
 
+    //WOW ES EL MILLOR MMORPG LA LICH KING PANDARIA CACA!!!
+
     private void checkAndRequestStoragePermissions() {
         if (checkStoragePermissions()) {
             performLogic();
