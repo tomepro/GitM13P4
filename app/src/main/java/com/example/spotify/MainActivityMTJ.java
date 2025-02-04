@@ -48,7 +48,6 @@ public class MainActivityMTJ extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.bottomnavigationnav);
 
         //CANVIO PARA RELEASE
-        //AQUI ESTA EL ERROR
 
         fragmentHome = new HomeFragmentMTJ();
         fragmentSearch = new SearchFragmentMTJ();
