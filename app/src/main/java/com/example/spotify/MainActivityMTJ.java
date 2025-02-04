@@ -81,6 +81,7 @@ public class MainActivityMTJ extends AppCompatActivity {
     }
 
     //WOW ES EL MILLOR MMORPG LA LICH KING PANDARIA CACA!!!
+    //LICH ES 3.3.5a
 
     private void checkAndRequestStoragePermissions() {
         if (checkStoragePermissions()) {
