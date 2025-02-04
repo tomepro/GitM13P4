@@ -79,6 +79,8 @@ public class MainActivityMTJ extends AppCompatActivity {
         checkAndRequestStoragePermissions();
     }
 
+    //WOW ES EL MILLOR MMORPG!!!
+
     private void checkAndRequestStoragePermissions() {
         if (checkStoragePermissions()) {
             performLogic();
