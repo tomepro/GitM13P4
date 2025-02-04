@@ -47,6 +47,7 @@ public class MainActivityMTJ extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         bottomNavigationView = findViewById(R.id.bottomnavigationnav);
 
+        //CANVIO PARA RELEASE
 
         fragmentHome = new HomeFragmentMTJ();
         fragmentSearch = new SearchFragmentMTJ();
