@@ -47,7 +47,6 @@ public class MainActivityMTJ extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         bottomNavigationView = findViewById(R.id.bottomnavigationnav);
 
-        //CANVIO PARA RELEASE
 
         fragmentHome = new HomeFragmentMTJ();
         fragmentSearch = new SearchFragmentMTJ();
@@ -79,8 +78,6 @@ public class MainActivityMTJ extends AppCompatActivity {
 
         checkAndRequestStoragePermissions();
     }
-
-    //WOW ES EL MILLOR MMORPG LA LICH KING PANDARIA CACA!!!
 
     private void checkAndRequestStoragePermissions() {
         if (checkStoragePermissions()) {
