@@ -105,7 +105,7 @@ public class MainActivityMTJ extends AppCompatActivity {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 performLogic();
             } else {
-                Toast.makeText(this, "Los permisos fueron denegados.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Los permisos fueron denegados tu fruta madre.", Toast.LENGTH_SHORT).show();
             }
         }
     }
